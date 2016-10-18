@@ -1,0 +1,78 @@
+
+
+.center-ft{text-align: center;line-height:100%;}
+.type-other{width: 50px;height: 50px;display: block;border-radius: 50% }
+
+
+
+/*字体颜色*/
+.wihte-ft{color: #fff;}
+.orange-ft{color:#fc7a51;}
+.red-ft{color:red;}
+.gary-ft{color:#5c5c5c}
+
+/*导航背景图 */
+
+
+
+
+
+/*背景颜色*/
+.orange-bg{background-color: #fc7a51;color:#fff;}
+
+.gary00-bg{background-color: #555}
+.gary01-bg{background-color:#777}
+.gary02-bg{background-color: #ccc}
+
+/*转行快*/
+.display-l{display: inline}
+.display-c{display:block }
+.display-lc{display:inline-block }
+
+
+
+
+
+
+
+
+
+/*间距*/
+.margin-tb-10{margin: 10px 0;}
+.margin-tb-15{margin: 15px 0;}
+.margin-lr-5{margin: 0 5px;}
+.margin-lr-10{margin: 0 10px;}
+.margin-lr-15{margin: 0 15px;}
+.margin-lr-20{margin: 0 20px;}
+.padding-tb-10{margin: 10px 0;}
+.padding-tb-15{margin: 15px 0;}
+.padding-lr-10{margin: 0 15px;}
+.padding-lr-15{margin: 0 15px;}
+
+
+/*隐藏*/
+.overflow{overflow: hidden}
+
+/*按钮*/
+.btn-01{position: absolute;right:30px;bottom: 10px;padding: 10px;border-radius: 7px}
+
+/*小圆点*/
+.icon.ion-record{
+    color: #fff;width: 5px;height:5px;}
+
+/*图片尺寸*/
+.height-200px{ height:200px;}
+.height-154px{height: 154px}
+/*边框线*/
+.border{border: 1px #8f8f8f solid}
+
+/*边框尺寸*/
+
+/*背景图*/
+.offers-05{width: 40px;height:40px;border-radius:50% }
+
+
+
+
+
+

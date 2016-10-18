@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>homework</title>
+<style>
+
+.st{border: 1px #000 solid;width: 100px;margin-top:10px;}
+*{margin:0;padding:0;}
+body{ padding:20px}
+.box{width:400px;height:260px;overflow:hidden;border:1px solid #ccc; margin-bottom:10px}
+p{width:1200px;transition:1s transform}/*为什么是transform*/
+button{ border:none; background:#ccc; width:30px; height:30px; margin-left:10px}
+.ac{ background:red; color:#fff;}
+img{ float:left;}  
+</style>
+<script src="all_tool.js"></script>
+<script>
+window.onload=function(){
+	run('select1')
+	run('select2')
+	run('select3')
+	banner('itemA')
+  	banner('itemB')
+    banner('itemC')
+	play('top1')
+ 	play('top2')
+ 	play('top3')
+}
+
+</script>
+
+</head>
+
+<body>
+<div id="select1" class="st">
+	<form>
+			<label><input  type="checkbox">全选</label>
+			<div>
+				<input type="checkbox">
+				<input type="checkbox">
+				<input type="checkbox">
+			</div>
+	</form>
+</div>
+<div id="select2" class="st">
+	<form>
+			<label><input  type="checkbox">全选</label>
+			<div>
+				<input type="checkbox">
+				<input type="checkbox">
+				<input type="checkbox">
+			</div>
+	</form>
+</div>
+<div id="select3" class="st">
+	<form>
+			<label><input  type="checkbox">全选</label>
+			<div>
+				<input type="checkbox">
+				<input type="checkbox">
+				<input type="checkbox">
+			</div>
+	</form>
+</div>
+
+<div id="itemA" style="width:600px;height:260px;border:2px solid red;margin:0 auto;position:relative;overflow:hidden">
+	<p style="list-style:none;position:absolute;left:0;top:0;">
+		<img style="font-size:0;margin:0;padding:0;float:left;" src="images/01.jpg">
+		<img style="font-size:0;margin:0;padding:0;float:left;" src="images/02.jpg">
+		<img style="font-size:0;margin:0;padding:0;float:left;" src="images/03.jpg">
+		<img style="font-size:0;margin:0;padding:0;float:left;" src="images/04.jpg">
+	</p>
+</div>
+<div id="itemB" style="width:600px;height:260px;border:2px solid red;margin:0 auto;position:relative;overflow:hidden">
+	<p style="list-style:none;position:absolute;left:0;top:0;">
+		<img style="font-size:0;margin:0;padding:0;float:left;" src="images/01.jpg">
+		<img style="font-size:0;margin:0;padding:0;float:left;" src="images/02.jpg">
+		<img style="font-size:0;margin:0;padding:0;float:left;" src="images/03.jpg">
+		<img style="font-size:0;margin:0;padding:0;float:left;" src="images/04.jpg">
+	</p>
+</div>
+<div id="itemC" style="width:600px;height:260px;border:2px solid red;margin:0 auto;position:relative;overflow:hidden">
+	<p style="list-style:none;position:absolute;left:0;top:0;">
+		<img style="font-size:0;margin:0;padding:0;float:left;" src="images/01.jpg">
+		<img style="font-size:0;margin:0;padding:0;float:left;" src="images/02.jpg">
+		<img style="font-size:0;margin:0;padding:0;float:left;" src="images/03.jpg">
+		<img style="font-size:0;margin:0;padding:0;float:left;" src="images/04.jpg">
+	</p>
+</div>
+
+<div id="top1">
+	<div class="box">
+	        <p id="pl">
+	            <img id="img1"  src="tab/01.jpg">
+	            <img id="img2"  src="tab/02.jpg">
+	            <img id="img3"  src="tab/03.jpg">
+	        </p>
+	    </div>
+	<button  class="ac" type="button">1</button>
+	<button  type="button">2</button>
+	<button  type="button">3</button>
+</div>
+<div id="top2" >
+	<div class="box">
+	        <p id="pl">
+	            <img id="img1"  src="tab/01.jpg">
+	            <img id="img2"  src="tab/02.jpg">
+	            <img id="img3"  src="tab/03.jpg">
+	        </p>
+	    </div>
+	<button  class="ac" type="button">1</button>
+	<button  type="button">2</button>
+	<button  type="button">3</button>
+</div>
+<div id="top3" >
+	<div class="box">
+	        <p id="pl">
+	            <img id="img1"  src="tab/01.jpg">
+	            <img id="img2"  src="tab/02.jpg">
+	            <img id="img3"  src="tab/03.jpg">
+	        </p>
+	    </div>
+	<button  class="ac" type="button">1</button>
+	<button  type="button">2</button>
+	<button  type="button">3</button>
+</div>
+
+
+
+
+</body>
+</html>

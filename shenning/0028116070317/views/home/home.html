@@ -1,0 +1,212 @@
+<ion-view title="Home">
+    <ion-nav-bar class="bar-assertive">
+        <ion-nav-buttons side="left">
+            <button class="button button-icon ion-navicon button-clear"></button>
+        </ion-nav-buttons>
+        <ion-nav-buttons side="right">
+            <button class="button button-icon ion-ios-bell button-clear" badge="5"></button>
+            <button class="button button-icon ion-android-search button-clear"></button>
+        </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-content class="">
+        <!---0000000000------------------------------------轮播图-->
+        <ion-slide-box  auto-play="true" does-continue="true" slide-interval="2500" class="margin-tb-15">
+            <ion-slide>
+                <img src="images/banner01_03.jpg" alt=""  style="width: 100%">
+            </ion-slide>
+            <ion-slide>
+                <img src="images/banner02_03.jpg" alt="" style="width: 100%">
+            </ion-slide>
+            <ion-slide>
+                <img src="images/banner03_03.jpg" alt="" style="width: 100%">
+            </ion-slide>
+            <ion-slide>
+                <img src="images/banner02_03.jpg" alt="" style="width: 100%">
+            </ion-slide>
+            <ion-slide>
+                <img src="images/banner04_04.jpg" alt="" style="width: 100%">
+            </ion-slide>
+        </ion-slide-box>
+
+<!---------------------------------------------------------------------------------------------------------集合导航-->
+        <ion-list class="card" >
+            <ion-item style="padding: 0;" >
+                <div class="row overflow">
+                    <div class="col center-ft"> <a class="col type-other margin-lr-15" ui-sref="tour"><img src="images/offers_08.jpg" alt="" class="offers-05" ></a>Electronics</div>
+                    <div class="col center-ft"> <a class="col type-other margin-lr-15 bg-pic05" ><img src="images/offers_03.jpg" alt="" class="offers-05"></a>Fashion</div>
+                    <div class="col center-ft"> <a class="col type-other margin-lr-15"><img src="images/offers_11.jpg" alt="" class="offers-05"></a>Living</div>
+                    <div class="col center-ft"> <a class="col type-other margin-lr-15" ><img src="images/offers_05.jpg" alt="" class="offers-05"></a>Kids</div>
+                </div>
+            </ion-item>
+<!----------------------------------------------------------------------------------------------------------分布内容-->
+            <!---------1---------------------------------------------------------------loving。living-->
+            <!--标签-->
+            <ion-item class="item-avatar-left margin-tb-10">
+                <img class="icon ion-minus-circled" src="images/Offer-Icon.jpg" style="border: 0">
+                <h2 class="title">Loving·Living</h2>
+                <p>Just do you like!</p>
+            </ion-item>
+             <!--内容-->
+            <ion-item class="margin-tb-10">
+                <img src="images/news01_03.jpg" width="100%">
+                <h2 class="title">客·居</h2>
+                <p>sdafdsafd</p>
+                    <a class=" gary01-bg btn-01 orange-bg" href="#tabs/room?id=1$title=aa" >More </a>
+            </ion-item>
+            <ion-item class="margin-tb-10">
+                <img src="images/news01_03.jpg" width="100%">
+                <h2 class="title">厨·卫</h2>
+                <p>sdafdsafd</p>
+                <a class=" btn-01 orange-bg"   href="#tabs/kitchen?id=2$title=bb" >More </a>
+            </ion-item>
+            <!-------2-----------------------------------------------------------------Hot-->
+            <!--标签-->
+            <ion-item class="item-avatar-left margin-tb-10">
+                <img class="icon ion-minus-circled" src="images/Offer-Icon.jpg" style="border: 0">
+                <h2 class="title">Hot·Enjoy</h2>
+                <p>We can do better</p>
+            </ion-item>
+            <!--内容-->
+            <ion-item class="margin-tb-10">
+                <img src="images/news01_03.jpg" width="100%">
+                <h2 class="title">New·Style</h2>
+                <p>sdafdsafd</p>
+                <a class=" gary01-bg btn-01 orange-bg"  href="#tabs/newstyle?id=3$title=cc">More </a>
+            </ion-item>
+            <ion-item class="margin-tb-10">
+                <img src="images/news01_03.jpg" width="100%">
+                <h2 class="title">品牌·专区</h2>
+                <p>sdafdsafd</p>
+                <a class=" btn-01 orange-bg" href="#tabs/brand?id=4$title=dd">More </a>
+            </ion-item>
+            <!-------3-----------------------------------------------------------------Baby-->
+            <!--标签-->
+            <ion-item class="item-avatar-left margin-tb-10">
+                <img class="icon ion-minus-circled" src="images/Offer-Icon.jpg" style="border: 0">
+                <h2 class="title">Love·Mybaby</h2>
+                <p>We can do better</p>
+            </ion-item>
+            <!--内容-->
+            <ion-item class="margin-tb-10">
+                <img src="images/baby.jpg" width="100%" class="height-200px">
+                <h2 class="title">精品·童装</h2>
+                <p>sdafdsafd</p>
+                <a class=" gary01-bg btn-01 orange-bg"  href="#tabs/baby?id=5$title=ff">More </a>
+            </ion-item>
+            <ion-item class="margin-tb-10">
+                <img src="images/news01_03.jpg" width="100%">
+                <h2 class="title">品牌·专区</h2>
+                <p>sdafdsafd</p>
+                <a class=" btn-01 orange-bg"   href="#tabs/pergnant?id=5$title=ff">More </a>
+            </ion-item>
+            <!----------4--------------------------------------------------------------Style-->
+            <!--标签-->
+            <ion-item class="item-avatar-left margin-tb-10">
+                <img class="icon ion-minus-circled" src="images/Offer-Icon.jpg" style="border: 0">
+                <h2 class="title">New·Style</h2>
+                <p>We can do better</p>
+            </ion-item>
+            <!--内容-->
+            <ion-item class="margin-tb-10">
+                <img src="images/news01_03.jpg" width="100%">
+                <h2 class="title">New·Style</h2>
+                <p>sdafdsafd</p>
+                <a class=" gary01-bg btn-01 orange-bg"  href="#tabs/electron?id=4$title=dd">More </a>
+            </ion-item>
+            <ion-item class="margin-tb-10">
+                <img src="images/news01_03.jpg" width="100%"  >
+                <h2 class="title">品牌·专区</h2>
+                <p>sdafdsafd</p>
+                <a class=" btn-01 orange-bg" href="#tabs/appliances?id=4$title=dd">More </a>
+            </ion-item>
+            <!----------5--------------------------------------------------------------Guess you like-->
+            <!--标签-->
+            <ion-item class="item-avatar-left margin-tb-10">
+                <img class="icon ion-minus-circled" src="images/Offer-Icon.jpg" style="border: 0">
+                <h2 class="title">Guess·you like</h2>
+                <p>We can do better</p>
+            </ion-item>
+            <!--内容-->
+            <ion-item class="margin-tb-10">
+
+
+
+               <div class="row">
+
+                   <div class="col border margin-lr-5 height-200px">
+                       <a href="">
+                           <img src="images/like01.jpg" alt="" >
+                            <h3 class="red-ft">1000￥</h3>
+                           <p class="gary-ft">最新款式·不一样的感受</p>
+                       </a>
+                   </div>
+
+                   <div class="col border margin-lr-5 height-200px">
+                       <a href="">
+                           <img src="images/like01.jpg" alt="" >
+                           <h3 class="red-ft">1000￥</h3>
+                           <p class="gary-ft">最新款式·不一样的感受</p>
+                       </a>
+                   </div>
+
+               </div>
+
+                <div class="row">
+                    <div class="col border margin-lr-5 height-200px">
+                        <a href="">
+                            <img src="images/like01.jpg" alt="" >
+                            <h3 class="red-ft">1000￥</h3>
+                            <p class="gary-ft">最新款式·不一样的感受</p>
+                        </a>
+                    </div>
+
+                    <div class="col border margin-lr-5 height-200px">
+                        <a href="">
+                            <img src="images/like01.jpg" alt="" >
+                            <h3 class="red-ft">1000￥</h3>
+                            <p class="gary-ft">最新款式·不一样的感受</p>
+                        </a>
+                    </div>
+
+                    <div class="col border margin-lr-5 height-200px">
+                        <a href="">
+                            <img src="images/like01.jpg" alt="" >
+                            <h3 class="red-ft">1000￥</h3>
+                            <p class="gary-ft">最新款式·不一样的感受</p>
+                        </a>
+                    </div>
+
+                </div>
+
+
+                <div class="row">
+
+                    <div class="col border margin-lr-5 height-200px">
+                        <a href="">
+                            <img src="images/like01.jpg" alt="" >
+                            <h3 class="red-ft">1000￥</h3>
+                            <p class="gary-ft">最新款式·不一样的感受</p>
+                        </a>
+                    </div>
+
+                    <div class="col border margin-lr-5 height-200px">
+                        <a href="">
+                            <img src="images/like01.jpg" alt="" >
+                            <h3 class="red-ft">1000￥</h3>
+                            <p class="gary-ft">最新款式·不一样的感受</p>
+                        </a>
+                    </div>
+
+                </div>
+
+
+            </ion-item>
+
+
+
+
+        </ion-list>
+
+
+    </ion-content>
+</ion-view>
